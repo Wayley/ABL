@@ -5,12 +5,7 @@ import { Button, Icon } from 'antd-mobile';
 import TabBarExample from './tabbar';
 import styles from './App.css';
 
-
-import News from './Components/News/News';
-import Court from './Components/Court/Court';
-import Game from './Components/Game/Game';
-import My from './Components/My/My';
-
+import BasicExample from './Components/testCom/test'
 const tabs = [
   {
     title: '资讯',
@@ -43,8 +38,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        this is home-news page
         <TabBarExample list={tabs} />
+        {/* <BasicExample />
+         */}
       </div>
     );
   }
